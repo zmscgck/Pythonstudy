@@ -1,2 +1,81 @@
 This is the first time.
 Git is easy to use.
+$ ls
+Python           git
+Untitled.ipynb   test.py
+Untitled1.ipynb  test01.py
+$ cd Python
+$ ls
+hello.py
+$ vim test.txt
+$ ls
+hello.py  test.txt
+$ cat test.txt
+This is the first time.
+Git is easy to use.
+$ cat hello.py
+print('Hello world!')
+print(1+2)
+
+$ $ ls
+Python           git
+Untitled.ipynb   test.py
+Untitled1.ipynb  test01.py
+$ cd Python
+$ ls
+hello.py
+$ vim test.txt
+$ ls
+hello.py  test.txt
+$ cat test.txt
+This is the first time.
+Git is easy to use.
+$ cat hello.py
+print('Hello world!')
+print(1+2)
+
+$ git$ ls
+Python           git
+Untitled.ipynb   test.py
+Untitled1.ipynb  test01.py
+$ cd Python
+$ ls
+hello.py
+$ vim test.txt
+$ ls
+hello.py  test.txt
+$ cat test.txt
+This is the first time.
+Git is easy to use.
+$ cat hello.py
+print('Hello world!')
+print(1+2)
+
+$ git add .
+$ git commit
+*** Please tell me who you are.
+Run
+    git config --global user.email "you@example.com"
+    git config --global user.name "Yourname"
+
+$ git config --global user.email "lgfl@sina.com"
+ $ git config --global user.name "zmscgck"
+ $ git commit -m "first commit"
+  [master (root-commit) 7ae8a99] first commit
+     2 files changed, 5 insertions(+)
+      create mode 100644 hello.py
+       create mode 100644 test.txt
+$ git push -u origin master
+Username for 'https://github.com': lgfl@sina.com
+Password for 'https://lgfl@sina.com@github.com':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 318 bytes | 318.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/zmscgck/Pythonstudy.git
+ * [new branch]      master -> master
+ Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+ 到此为止，git上传文件成功。
