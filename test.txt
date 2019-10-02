@@ -7,49 +7,9 @@ Untitled1.ipynb  test01.py
 $ cd Python
 $ ls
 hello.py
-$ vim test.txt
-$ ls
-hello.py  test.txt
-$ cat test.txt
-This is the first time.
-Git is easy to use.
-$ cat hello.py
-print('Hello world!')
-print(1+2)
+test.txt
 
-$ $ ls
-Python           git
-Untitled.ipynb   test.py
-Untitled1.ipynb  test01.py
-$ cd Python
-$ ls
-hello.py
-$ vim test.txt
-$ ls
-hello.py  test.txt
-$ cat test.txt
-This is the first time.
-Git is easy to use.
-$ cat hello.py
-print('Hello world!')
-print(1+2)
-
-$ git$ ls
-Python           git
-Untitled.ipynb   test.py
-Untitled1.ipynb  test01.py
-$ cd Python
-$ ls
-hello.py
-$ vim test.txt
-$ ls
-hello.py  test.txt
-$ cat test.txt
-This is the first time.
-Git is easy to use.
-$ cat hello.py
-print('Hello world!')
-print(1+2)
+$ git init
 
 $ git add .
 $ git commit
@@ -59,8 +19,8 @@ Run
     git config --global user.name "Yourname"
 
 $ git config --global user.email "lgfl@sina.com"
- $ git config --global user.name "zmscgck"
- $ git commit -m "first commit"
+$ git config --global user.name "zmscgck"
+$ git commit -m "first commit"
   [master (root-commit) 7ae8a99] first commit
      2 files changed, 5 insertions(+)
       create mode 100644 hello.py
